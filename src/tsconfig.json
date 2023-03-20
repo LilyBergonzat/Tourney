@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "outDir": "../dist",
+        "rootDir": ".",
+        "baseUrl": ".",
+        "paths": {
+            "#root/*": ["*"],
+            "#setup/*": ["setup/*"],
+            "#structures/*": ["structures/*"],
+            "#util/*": ["util/*"]
+        },
+        "composite": true
+    },
+    "include": [".", "./**/*.json"],
+    "exclude": ["./tsconfig.json"]
+}

@@ -1,0 +1,8 @@
+*.env
+!.sample.env
+node_modules
+.idea
+.vscode
+*.iml
+dist
+temp
